@@ -9,7 +9,7 @@ const About = () => {
           <h1 className='title'>Angra family</h1>
           <p className='title '>
             We are very happy to announce this news with every one our daughter
-            is getting married......
+            is getting married.
           </p>
         </div>
       </div>

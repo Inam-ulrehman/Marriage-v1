@@ -19,7 +19,7 @@ const Dashboard = ({ user }) => {
             <div className='img1'>
               <div className='sania-box'>
                 <img className='sania' src={sania} alt='' />
-                <p>Snia Angra</p>
+                <p>Sania Angra</p>
               </div>
             </div>
             <div className='img2'>
@@ -39,7 +39,7 @@ const Dashboard = ({ user }) => {
             <p className='invite'>
               We want to invite you for Our daughter Sania Angra's wedding
             </p>
-            <p className='invite'>Tuesday 3rd may 2022</p>
+            <p className='invite'>Tuesday 3rd May 2022 @ 2pm</p>
           </div>
         </div>
         {/* mommy dady  */}

@@ -23,10 +23,10 @@ const Home = () => {
         <div className='time'>
           <h2>Time</h2>
           <div className='title-underline'></div>
-          <p>Tuesday 3rd May 2022 </p>
-          <p className='diya'>Ramayan paath : 4pm</p>
+          <p className='small-text diya '>Tuesday 3rd May 2022 </p>
           <img className='diya-img' src={dia} alt='' />
-          <p>Dinner : 6pm</p>
+          <p>Ramayan paath April 30@ 4pm </p>
+          <p className='mamoaddress'>18 spachman street Kitchener N2R 0N5</p>
         </div>
         <div className='address'>
           <h2>Address</h2>
@@ -85,12 +85,16 @@ const Wrapper = styled.section`
     position: absolute;
     height: 40px;
     left: 20px;
+    top: 670px;
   }
   .mandar {
     color: var(--white);
     background-color: var(--primary-7);
     padding: 0.3rem;
     border-radius: var(--borderRadius);
+  }
+  .mamoaddress {
+    margin: 0;
   }
 `
 export default Home

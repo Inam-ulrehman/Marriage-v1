@@ -10,11 +10,11 @@ const FamilyHome = () => {
           <h2 className='title'>Brothers</h2>
           <div className='title-underline'></div>
           <ul className='list'>
-            <li>Shubham angra</li>
+            <li>Shubham Angra</li>
             <li>Akshat Grover</li>
             <li>Aditya Gulati</li>
             <li>Karan Gulati</li>
-            <li>Vinay Kumar and bhabhi parveen</li>
+            <li>Vinay Kumar and bhabhi Parveen</li>
             <li>Brar Angra</li>
           </ul>
         </div>
@@ -23,7 +23,7 @@ const FamilyHome = () => {
           <div className='title-underline d'>
             <div className='names'>
               <ul className='listt'>
-                <li className='b'>Deepak and Neeroj Grover</li>
+                <li className='b'>Deepak and Neeraj Grover</li>
                 <li>Rakesh Deepak and Pinky</li>
                 <li>Arvind and Meenu Arora</li>
               </ul>
