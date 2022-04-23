@@ -20,14 +20,13 @@ const FamilyHome = () => {
         </div>
         <div className='family-friends'>
           <h2 className='title'>Family and Friends</h2>
-          <div className='title-underline d'>
-            <div className='names'>
-              <ul className='listt'>
-                <li className='b'>Deepak and Neeraj Grover</li>
-                <li>Rakesh Deepak and Pinky</li>
-                <li>Arvind and Meenu Arora</li>
-              </ul>
-            </div>
+          <div className='title-underline d'></div>
+          <div className='family-ul'>
+            <ul>
+              <li className='b'>Deepak and Neeraj Grover(Mamu-Mami)</li>
+              <li>Rakesh Deepak and Pinky</li>
+              <li>Arvind and Meenu Arora</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -46,18 +45,17 @@ const Wrapper = styled.article`
   .brothers {
     border: 4px solid var(--primary-4);
     height: 365px;
+    ul {
+      margin-left: 1rem;
+    }
   }
   .family-friends {
     border: 4px solid var(--primary-4);
     height: 365px;
+    text-align: left;
   }
-  .list {
-    li {
-      text-align: center;
-    }
-  }
-  .names {
-    margin-top: 1rem;
+  .family-ul {
+    margin-left: 1rem;
   }
 `
 export default FamilyHome

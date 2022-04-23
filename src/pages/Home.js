@@ -21,9 +21,9 @@ const Home = () => {
 
       <div className='featured'>
         <div className='time'>
-          <h2>Time</h2>
+          <h2>Ramayan paath</h2>
           <div className='title-underline'></div>
-          <p className='small-text diya '>Tuesday 3rd May 2022 </p>
+
           <img className='diya-img' src={dia} alt='' />
           <p>
             Ramayan paath April 30 @ 4pm
@@ -32,7 +32,7 @@ const Home = () => {
           <p className='mamoaddress'>18 spachman street Kitchener N2R 0N5</p>
         </div>
         <div className='address'>
-          <h2>Address</h2>
+          <h2>Lavaan Phere</h2>
           <div className='title-underline'></div>
           <p>Sai Bhakti Dham</p>
           <a
@@ -43,7 +43,9 @@ const Home = () => {
           >
             Address
           </a>
-          <p>52 Mclntyre pl Unit A, Kitchener, On, N2R1G3</p>
+          <p className='jai'>Jai Mala @2pm </p>
+          <p className='jai'>lunch @2:30pm </p>
+          <p className='jai'>52 Mclntyre pl Unit A, Kitchener, On, N2R1G3</p>
         </div>
       </div>
       <FamilyHome />
@@ -66,7 +68,7 @@ const Wrapper = styled.section`
   }
   .featured {
     background-color: var(--primary-2);
-    height: 270px;
+    height: 340px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -97,6 +99,9 @@ const Wrapper = styled.section`
     border-radius: var(--borderRadius);
   }
   .mamoaddress {
+    margin: 0;
+  }
+  .jai {
     margin: 0;
   }
 `
