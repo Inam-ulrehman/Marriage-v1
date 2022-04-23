@@ -35,6 +35,7 @@ const Home = () => {
           <a
             className='mandar'
             target='_blank'
+            rel='noopener noreferrer'
             href='http://saibhaktidham.com/'
           >
             Address
