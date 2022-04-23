@@ -29,7 +29,7 @@ const Wrapper = styled.section`
     }
     p {
       color: var(--primary-3);
-      padding-bottom: 3rem;
+      padding-bottom: 8rem;
     }
   }
 `
