@@ -17,9 +17,10 @@ const About = () => {
   )
 }
 const Wrapper = styled.section`
+  background-color: var(--primary-2);
   .content {
     position: fixed;
-    bottom: 0;
+    bottom: 4rem;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
