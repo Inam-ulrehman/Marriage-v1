@@ -68,7 +68,7 @@ const Wrapper = styled.section`
   }
   .featured {
     background-color: var(--primary-2);
-    height: 340px;
+    height: 360px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
