@@ -43,8 +43,8 @@ const Home = () => {
           >
             Address
           </a>
-          <p className='jai'>Jai Mala 3rd May @2pm </p>
-          <p className='jai'>lunch 3rd May @2:30pm </p>
+          <p className='jai'>Jai Mala @2pm 3rd May 2022 </p>
+          <p className='jai'>Lunch @2:30pm 3rd May 2022</p>
           <p className='jai'>52 Mclntyre pl Unit A, Kitchener, On, N2R1G3</p>
         </div>
       </div>
