@@ -25,7 +25,10 @@ const Home = () => {
           <div className='title-underline'></div>
           <p className='small-text diya '>Tuesday 3rd May 2022 </p>
           <img className='diya-img' src={dia} alt='' />
-          <p>Ramayan paath April 30@ 4pm </p>
+          <p>
+            Ramayan paath April 30 @ 4pm
+            <p>Dinner @ 6pm</p>
+          </p>
           <p className='mamoaddress'>18 spachman street Kitchener N2R 0N5</p>
         </div>
         <div className='address'>
@@ -63,7 +66,7 @@ const Wrapper = styled.section`
   }
   .featured {
     background-color: var(--primary-2);
-    height: 200px;
+    height: 270px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
