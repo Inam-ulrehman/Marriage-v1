@@ -3,6 +3,7 @@ import { useGlobalContext } from '../contex/contextapi'
 import styled from 'styled-components'
 import FamilyHome from '../components/FamilyHome'
 import dia from '../images/dia.png'
+import Countdown from '../components/Countdown'
 
 const Home = () => {
   const data = useGlobalContext()
@@ -18,7 +19,7 @@ const Home = () => {
           </p>
         </div>
       </div>
-
+      <Countdown></Countdown>
       <div className='featured'>
         <div className='time'>
           <h2>Ramayan paath</h2>
@@ -90,7 +91,7 @@ const Wrapper = styled.section`
     position: absolute;
     height: 40px;
     left: 20px;
-    top: 670px;
+    top: 770px;
   }
   .mandar {
     color: var(--white);
