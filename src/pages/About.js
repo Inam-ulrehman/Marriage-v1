@@ -13,6 +13,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className='hero4'></div>
     </Wrapper>
   )
 }
