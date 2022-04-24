@@ -48,7 +48,7 @@ const Wrapper = styled.div`
   }
   .days {
     color: var(--primary-1);
-    margin-left: 3.7rem;
+    margin-left: 3.9rem;
     background-color: var(--primary-5);
     width: 10px;
   }

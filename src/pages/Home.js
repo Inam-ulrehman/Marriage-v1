@@ -91,7 +91,7 @@ const Wrapper = styled.section`
     position: absolute;
     height: 40px;
     left: 20px;
-    top: 770px;
+    top: 780px;
   }
   .mandar {
     color: var(--white);
