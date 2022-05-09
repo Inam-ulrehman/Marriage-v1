@@ -7,7 +7,7 @@ function App() {
       <div className='container'>
         <h1>Time Count Down</h1>
         <div className='countdown'>
-          <Countdown date={Date.now() + 406904000} />
+          <Countdown date={Date.now()} />
         </div>
         <div className='time-container'>
           {/* <span className='time'>Total</span> */}
